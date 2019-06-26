@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: fluentd-s3
-        image: ccpgames/kubernetes-fluentd-s3:latest
+        image: ccpgames/kubernetes-fluentd-s3:latest #imageを変える場合は適宜変えてください
         imagePullPolicy: Always
         env:
         - name: S3_LOGS_BUCKET_NAME
